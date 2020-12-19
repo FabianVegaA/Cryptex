@@ -1,0 +1,5 @@
+/test
+/bin
+*.hi
+*.o
+*.pdf
