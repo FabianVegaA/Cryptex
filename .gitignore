@@ -1,5 +1,5 @@
 /test
-/bin
+exe
 *.hi
 *.o
 *.pdf

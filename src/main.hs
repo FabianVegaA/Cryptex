@@ -20,19 +20,22 @@ searchFor s dict = filter (\x -> take (length s) x == s) $ map fst dict
 isComment :: String -> Bool
 isComment (x : xs) = x == '#'
 
-saveMatrix :: String -> Matrix Int
-saveMatrix contents = fromLists . map (map (\x -> read x :: Int) . splitOn " ") $ filter (not . isComment) $ lines contents
+
+saveMatrix :: String -> Matrix String
+saveMatrix contents = fromLists . map (splitOn " ") $ filter (not.isComment) $ lines contents
 
 main :: IO ()
 main = do
   args <- getArgs
-  --file_1 <- openFile (head args) ReadMode
+  print args
+  file_1 <- openFile (head args) ReadMode
   file_2 <- openFile (args !! 1) ReadMode
-  --content_1 <- hGetContents file_1
+  content_1 <- hGetContents file_1
   content_2 <- hGetContents file_2
-  --let dict = saveWords content_1
+  print content_2
+  let dict = saveWords content_1
   let cryptex = saveMatrix content_2
-  --print dict
+  print dict
   print cryptex
-  --hClose file_1
+  hClose file_1
   hClose file_2
