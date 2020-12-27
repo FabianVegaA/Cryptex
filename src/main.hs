@@ -19,7 +19,7 @@ saveWords :: String -> Dict
 saveWords "" = []
 saveWords contents = map (tuplify2 . splitOn ",") $ lines contents
 
--- Verify if a value is a comment, mainly if containt a '#' in a line
+-- Verify if a value is a comment, mainly if containt a '#' in beginning of a line
 isComment :: String -> Bool
 isComment (x : xs) = x == '#'
 
