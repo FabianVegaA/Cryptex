@@ -28,3 +28,13 @@ You can find this file in the next [link](https://www.kaggle.com/rtatman/english
 
 ## Thinks about the cryptex
 The cryptex is a matrix of `n x m` dimensions 
+
+## Compile the program
+To this, you can use the command make this compile the program in a file bin/exe 
+
+Now we just have to run the program to do its magic, you can execute the program using the next command
+```shell
+./bin/exe test_case/<name file> example_file.csv
+```
+
+
