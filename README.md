@@ -1,5 +1,5 @@
 # Cryptex
-In this project, we had as work decode a message written in a cryptic, the program has as input 2 files, one is a table like next.
+In this project, we had as work decode a message written in a cryptex, the program has as input 2 files, one is a table like next.
 ```csv
 word,count
 the,23135851162
@@ -21,4 +21,10 @@ The other is a file with the message, for example this
 6 h m a r g e m m m
 
 ```
-To decode the message is necessary to rotate each column of the cryptic until found a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that these cryptic have a compartment with an acid highly corrosive that can danger the content of the cryptic. For this is very important to found the word with the least amount of movements.
+To decode the message is necessary to rotate each column of the cryptex until find a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that these cryptex have a compartment with an acid highly corrosive that can danger the content of the cryptex. For this is very important to find the word with the least amount of movements.
+
+## File CSV 
+You can find this file in the next [link](https://www.kaggle.com/rtatman/english-word-frequency/)
+
+## Thinks about the cryptex
+The cryptex is a matrix of `n x m` dimensions 
