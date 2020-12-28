@@ -11,7 +11,7 @@ in,8469404971
 for,5933321709
 is,4705743816
 ```
-The other is a file with the message, for example this  <!-- The original file does not have numbers at the beginning of the rows -->
+The other is a file with the message, for example this 
 ```console
 1 # I am a comment, do what I say
 2 # I am a washing machine, do what I say
@@ -21,7 +21,12 @@ The other is a file with the message, for example this  <!-- The original file d
 6 h m a r g e m m m
 
 ```
-To decode the message is necessary to rotate each column of the cryptex until find a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that these cryptex have a compartment with an acid highly corrosive that can danger the content of the cryptex. For this is very important to find the word with the least amount of movements. <!-- I think you should explain that to find a word you need to make them form in the first column -->
+To decode the message is necessary to rotate each column of the cryptex until find a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that these cryptex have a compartment with an acid highly corrosive that can danger the content of the cryptex. For this is very important to find the word with the least amount of movements. This is achieved when in the first row is the hidden word as this
+
+<p color="red"> p e c e s i l l o
+h m a r g e m m m
+m i r a x y z a c
+e l x c v s d o u
 
 ## File CSV 
 You can find this file in the next [link](https://www.kaggle.com/rtatman/english-word-frequency/)
