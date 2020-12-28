@@ -21,12 +21,14 @@ The other is a file with the message, for example this
 6 h m a r g e m m m
 
 ```
-To decode the message is necessary to rotate each column of the cryptex until find a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that these cryptex have a compartment with an acid highly corrosive that can danger the content of the cryptex. For this is very important to find the word with the least amount of movements. This is achieved when in the first row is the hidden word as this
+To decode the message it is necessary to rotate each column of the cryptex until finding a word, in this case, the message hidden is *"pecesillo"*. One of the problems is that this cryptex has a compartment with an acid highly corrosive that can danger the content of the cryptex. For this is very important to find the word with the least amount of movements. This is achieved when in the first row is the hidden word as this
 
-<p color="red"> p e c e s i l l o
-h m a r g e m m m
-m i r a x y z a c
-e l x c v s d o u
+
+ ><span style="color:red">p &nbsp; e&nbsp; c&nbsp; e&nbsp; s &nbsp;&nbsp;i &nbsp;&nbsp;l&nbsp; &nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp; o</span><br>
+ h &nbsp;m &nbsp;a &nbsp;r &nbsp;g&nbsp; e&nbsp; m&nbsp; m&nbsp; m&nbsp;<br>
+ m&nbsp; i&nbsp;&nbsp; r&nbsp; a&nbsp; x&nbsp; y&nbsp;&nbsp; z&nbsp;&nbsp;&nbsp; a &nbsp;&nbsp;&nbsp;c<br>
+ e &nbsp;&nbsp;l&nbsp;&nbsp; x&nbsp; c &nbsp;v&nbsp; s &nbsp;&nbsp;d&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp; u<br>
+
 
 ## File CSV 
 You can find this file in the next [link](https://www.kaggle.com/rtatman/english-word-frequency/)
